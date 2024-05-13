@@ -1,5 +1,11 @@
+import AppLayout from "@/layouts/app-layout";
+
 const NewsPage = () => {
-  return <div>NewsPage</div>;
+  return (
+    <AppLayout>
+      <div>NewsPage</div>;
+    </AppLayout>
+  );
 };
 
 export default NewsPage;

@@ -1,5 +1,11 @@
+import AppLayout from "@/layouts/app-layout";
+
 const CustomerServicePage = () => {
-  return <div>CustomerServicePage</div>;
+  return (
+    <AppLayout>
+      <div>CustomerServicePage</div>
+    </AppLayout>
+  );
 };
 
 export default CustomerServicePage;

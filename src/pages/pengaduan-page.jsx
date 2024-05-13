@@ -1,5 +1,11 @@
+import AppLayout from "@/layouts/app-layout";
+
 const PengaduanPage = () => {
-  return <div>PengaduanPage</div>;
+  return (
+    <AppLayout>
+      <div>PengaduanPage</div>;
+    </AppLayout>
+  );
 };
 
 export default PengaduanPage;
