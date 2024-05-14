@@ -18,7 +18,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 const AppLayout = ({ children }) => {
   return (
     <main>
-      <div className="w-screen z-20 fixed top-0  bg-color-2">
+      <div className="w-screen z-40 fixed top-0  bg-color-2">
         <header className=" max-w-screen-xl  justify-between mx-auto w-full flex h-16 items-center gap-4 px-4 md:px-6">
           <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-14">
             <Link to={"/"} className="flex items-center gap-2  font-semibold md:text-xl">
@@ -97,7 +97,7 @@ const AppLayout = ({ children }) => {
           </div>
         </header>
       </div>
-      <div className="pt-[64px] overflow-x-hidden">{children}</div>
+      <div className="pt-[64px] overflow-x-hidden pb-10">{children}</div>
     </main>
   );
 };

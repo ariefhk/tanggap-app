@@ -1,4 +1,6 @@
+import { Button } from "@/components/ui/button";
 import AppLayout from "@/layouts/app-layout";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -16,6 +18,20 @@ const HomePage = () => {
           </div>
           <img src="/images/home-laptop.svg" className="max-w-[360px] max-h-[360px] object-cover" />
         </div>
+      </section>
+      <section className="p-[50px]  mt-[100px]  max-w-[1200px]  w-full mx-auto bg-color-2 flex items-center   shadow-xl shadow-[rgba(0,_0,_0,_0.25)] rounded-[20px] justify-between ">
+        <div className="space-y-4">
+          <div className="text-white space-y-7">
+            <h1 className="text-4xl font-bold">
+              Sampaikan suara Anda pada <br /> kami.
+            </h1>
+            <p>
+              Laporan Anda membawa perbaikan. <br /> Mari bersama wujudkan perubahan yang lebih <br /> baik untuk masyarakat.
+            </p>
+          </div>
+          <Button className=" bg-[rgba(91,_199,_245,_1)] shadow-xl text-md py-[17px] px-[40px]">Selengkapnya</Button>
+        </div>
+        <img src="/images/device.svg" className="max-w-[360px] max-h-[360px] object-cover" />
       </section>
     </AppLayout>
   );
