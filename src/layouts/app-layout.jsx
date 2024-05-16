@@ -89,8 +89,10 @@ const Navbar = () => {
             <DropdownMenuContent align="end">
               <DropdownMenuLabel>Akun Saya</DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Pengaturan</DropdownMenuItem>
-              <DropdownMenuItem>Dukungan</DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link to={"/profile"}>Profile Saya</Link>
+              </DropdownMenuItem>
+
               <DropdownMenuSeparator />
               <DropdownMenuItem>Keluar</DropdownMenuItem>
             </DropdownMenuContent>
