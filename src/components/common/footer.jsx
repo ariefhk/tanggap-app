@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="space-y-5">
             <h1 className="font-bold text-text16_24">Layanan Kami</h1>
-            <div className="flex flex-col gap-y-1 w-max">
+            <div className="flex flex-col gap-y-2 w-max">
               <Link to={"/bantuan"} className="text-text16_20 hover:underline hover:underline-offset-4">
                 Bantuan
               </Link>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
           <div className="space-y-5">
             <h1 className="font-bold text-text16_24">Fitur</h1>
-            <div className="flex flex-col gap-y-1 w-max">
+            <div className="flex flex-col gap-y-2 w-max">
               <Link to={"/pengaduan"} className="text-text16_20 hover:underline hover:underline-offset-4">
                 Pengaduan
               </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="space-y-5">
             <h1 className="font-bold text-text16_24">Cari</h1>
             <div>
-              <Input placeholder="Cari" />
+              <Input placeholder="Cari" className="text-black" />
             </div>
           </div>
           <div className="col-start-2">

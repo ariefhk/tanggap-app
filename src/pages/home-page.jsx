@@ -61,7 +61,7 @@ const HomePage = () => {
                 Laporan Anda membawa perbaikan. <br /> Mari bersama wujudkan perubahan yang lebih <br /> baik untuk masyarakat.
               </p>
             </div>
-            <Button variant={"variant1"} className=" text-white">
+            <Button variant={"color-shadow"} className=" text-white w-[200px] ">
               Selengkapnya
             </Button>
           </div>
